@@ -1,0 +1,14 @@
+.header{
+    background-image: url("https://studentsanjh.com/wp-content/uploads/2018/12/pizza-chicken-hollandaise.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: relative;
+}
+.h1{
+    text-align: center;
+    font-size: 44px;
+    color: rgb(253, 202, 34);
+}
+.logo{
+    margin-top: 60vh;            
+}
