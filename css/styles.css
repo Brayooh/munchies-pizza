@@ -1,14 +1,16 @@
-.head{
-    background-image: url("https://studentsanjh.com/wp-content/uploads/2018/12/pizza-chicken-hollandaise.jpg");
-    background-size: cover;
-    height: 100vh;
-    background-position: center;
+
+
+#img {
+  background-image: url("https://www.flashbarsalou.com/wp-content/uploads/2015/02/flashbar-homepage-pizza-blur.jpg");
+  background-size: cover;
+  height: 80vh;
+  background-position: absolute; 
 }
+  
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(66, 57, 36);
   }
-  
   .topnav a {
     float: left;
     color: #f2f2f2;
@@ -24,13 +26,14 @@
   }
   
   .topnav a.active {
-    background-color: rgb(168, 175, 76);
+    background-color: rgba(221, 94, 44, 0.61);
     color: white;
   }
-.h1{
+#h1{
     text-align: center;
-    font-size: 44px;
+    font-size: 54px;
     color: rgb(253, 202, 34);
+
 }
 .logo{
     margin-top: 60vh;            
