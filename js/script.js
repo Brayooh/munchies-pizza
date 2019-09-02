@@ -12,7 +12,7 @@ function Pizza(selectedSize,selectedToppings,selectedCrust) {
       small: 600,
       medium: 800,
       large: 1000
-    };re
+    };
   
     return sizes[this.selectedSize];
   }
@@ -27,6 +27,7 @@ function Pizza(selectedSize,selectedToppings,selectedCrust) {
       bacon: 200,
       cheese: 200,
       onion: 200,
+      
     };
   
     this.selectedToppings.forEach(function(topping) {

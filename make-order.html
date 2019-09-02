@@ -21,24 +21,24 @@
     <div id="img2">
         <header style="color: yellowgreen; font-size: 58px; text-align: center;"> Make your orders here </header>
         <br><br>
-        <h2 style="margin-left: 8vh; font-size: 40px;">Choose your desired size!</h2> <br>
+        <h2 style="margin-left: 8vh; font-size: 40px; text-align: center;">Choose your desired size!</h2> <br>
         <form role="form" id="pizza-order">
             <div class="sizeCost" id="sizeCost">
                 <div class="radio">
                     <div class="container">
                         <div class="row">
                             <div class="col-md">
-                                <label><input type="radio" name="optradio1" value="small">Small:600sh</label> <br>
+                                <label><input type="radio" name="optradio1"  style="width:20px !important;height:20px!important" value="small">Small:600sh</label> <br>
                                 <img src="https://d2mekbzx20fc11.cloudfront.net/uploads/web.Peri-Peri_600x600.png"
                                     alt="logo" style="height: 44%; width: 44%;">
                             </div>
                             <div class="col-md">
-                                <label><input type="radio" name="optradio1" value="medium">Medium:800sh</label><br>
+                                <label><input type="radio" name="optradio1" style="width:20px !important;height:20px!important" value="medium">Medium:800sh</label><br>
                                 <img src="https://d2mekbzx20fc11.cloudfront.net/uploads/web.Tandoori_600x600.png"
                                     alt="logo" style="height: 65%; width: 65%;">
                             </div>
                             <div class="col-md">
-                                <label><input type="radio" name="optradio1" value="large">Large:1000sh</label><br>
+                                <label><input type="radio" name="optradio1" style="width:20px !important;height:20px!important" value="large">Large:1000sh</label><br>
                                 <img src="https://d2mekbzx20fc11.cloudfront.net/uploads/web.Pesto-Chicken-Club_2018_600x600.png"
                                     alt="logo" style="height: 85%; width: 85%;">
                             </div>
@@ -70,7 +70,7 @@
                                 <label><input type="checkbox" value="onion">Onion</label>
                             </div>
                             <div class="col-md">
-                                <img src="https://media-cdn.tripadvisor.com/media/photo-s/02/ec/e2/08/ronny-s-pizza.jpg" alt="black olive" style="width: 35vh; height: 35vh;" class="img-thumbnail"> <br>
+                                <img src="https://media-cdn.tripadvisor.com/media/photo-s/02/ec/e2/08/ronny-s-pizza.jpg" alt="black olives" style="width: 35vh; height: 35vh;" class="img-thumbnail"> <br>
                                 <label><input type="checkbox" value="cheese">black olives</label>
                             </div>
                         </div>
@@ -101,13 +101,13 @@
             </div>
         </div> <br>
         <div id="img4">
-            <h2>Select your desired crust</h2> <br>
+            <h2 style="text-align: center; font-size: 47px; color: rgb(65, 63, 63);">Select your desired crust</h2> <br>
             <div class="crustCost" id="crustCost">
                 <div class="radio">
                     <div class="container">
                         <div class="row">                       
                                 <div class="col-md">
-                                <label><input type="radio" style="width:40px !important;height:40px!important; text-align: center" name="me" value="crispy">Crispy</label>
+                                <label><input type="radio" style="width:40px !important;height:40px!important; text-align: center;" name="me" value="crispy">Crispy</label>
                             </div>
                             <div class="col-md">
                                 <label><input style="width:40px !important;height:40px!important;" type="radio" name="me" value="stuffed">Stuffed,</label>
@@ -124,9 +124,8 @@
     
     <div class="jhg">
         <button type="submit" class="btn btn-success">Check Total Order!</button> <br><br>
-        <button type="" >Total
-                Cost:<br> Ksh/ <span id="totalCostSpan"></span></p>
     </div>
+    <p style="color:grey;font-size: 28px; margin-left: 200px;" class="animated zoomInUp me">TotalCost:Ksh/ <span id="totalCostSpan"></span></p>
  </form> <br> <br>
     <button type="dev" class="btn btn-danger but" style="margin-right: 180px; margin-top: -52px;">ORDER</button>
     </div>

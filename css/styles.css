@@ -19,9 +19,9 @@
   background-position: relative; 
 } 
 #img4 {
-  background-image: url("https://s2.best-wallpaper.net/wallpaper/2880x1800/1809/Pizza-pie-tomatoes-oil_2880x1800.jpg");
+  background-image: url("http://eskipaper.com/images/pizza-wallpaper-9.jpg");
   background-size: cover;
-  height: 70vh;
+  height: 50vh;
   background-position: relative; 
 } 
 .topnav {
@@ -59,4 +59,8 @@
 .col-md{
   text-align: center;
   color: rgb(25, 103, 219)
+}
+.radio{
+  font-size: 28px;
+  margin-top: 8vh;
 }
