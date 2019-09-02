@@ -9,10 +9,15 @@
 #img2 {
   background-image: url("https://hotpotdc.files.wordpress.com/2011/11/lomo-pzza-in-oven_edited-1.jpg");
   background-size: cover;
-  
+  height: 100vh;
   background-position: relative; 
 }
-  
+#img3 {
+  background-image: url("https://edge-restaurant.com/wp-content/uploads/2018/09/Preparing-Pizza-Dough-Recipe0.jpg");
+  background-size: cover;
+  height: 80vh;
+  background-position: relative; 
+} 
 .topnav {
     overflow: hidden;
     background-color: rgb(66, 57, 36);

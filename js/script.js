@@ -12,7 +12,7 @@ function Pizza(selectedSize,selectedToppings,selectedCrust) {
       small: 600,
       medium: 800,
       large: 1000
-    };
+    };re
   
     return sizes[this.selectedSize];
   }

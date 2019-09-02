@@ -19,9 +19,9 @@
         <a href="#about">About</a>
     </div> <br>
     <div id="img2">
-        <header style="color: yellowgreen; font-size: 48px; text-align: center;"> Make your orders here </header>
+        <header style="color: yellowgreen; font-size: 58px; text-align: center;"> Make your orders here </header>
         <br><br>
-        <h2 style="margin-left: 8vh;">Choose your desired size!</h2> <br>
+        <h2 style="margin-left: 8vh; font-size: 40px;">Choose your desired size!</h2> <br>
         <form role="form" id="pizza-order">
             <div class="sizeCost" id="sizeCost">
                 <div class="radio">
@@ -45,30 +45,32 @@
                         </div>
                     </div>
                 </div>
-            </div> <br>
+            </div>
+        </div> <br>
+        <div id="img3">
             <h2>Choose your desired topping(200/= for each topping selected)</h2> <br>
             <div class="toppingsCost" id="toppingsCost">
                 <div class="checkbox">
                     <div class="container">
                         <div class="row">
                             <div class="col-md">
-                                <img src="../delani-studio/assets/portfolio/work5.jpg" alt="work5 image" class="img-thumbnail"> <br>
+                                <img src="https://www.360bistrobar.com/wp-content/uploads/sites/16/2017/02/pepperoni-pizza.jpg" alt="pepperoni" style="width: 35vh; height: 35vh;" class="img-thumbnail"> <br>
                                 <label><input type="checkbox" value="pepperoni">Pepporoni</label>
                             </div>
                             <div class="col-md">
-                                <img src="../delani-studio/assets/portfolio/work5.jpg" alt="work5 image" class="img-thumbnail"> <br>
+                                <img src="https://i.ytimg.com/vi/VfotdKWwJbE/maxresdefault.jpg" alt="work5 image" style="width: 42vh; height: 35vh;" class="img-thumbnail"> <br>
                                 <label><input type="checkbox" value="sausage">Sausage</label>
                             </div>
                             <div class="col-md">
-                                <img src="../delani-studio/assets/portfolio/work5.jpg" alt="work5 image" class="img-thumbnail"><br>
+                                <img src="https://foodsogoodmall.com/wp-content/uploads/2013/09/Bacon-Pizza.jpg" alt="work5 image" style="width: 42vh; height: 35vh;" class="img-thumbnail"><br>
                                 <label><input type="checkbox" value="bacon">Bacon</label>
                             </div>
                             <div class="col-md">
-                                <img src="../delani-studio/assets/portfolio/work5.jpg" alt="work5 image" class="img-thumbnail"> <br>
+                                <img src="https://recipes.timesofindia.com/photo/59632728.cms" alt="work5 image" style="width: 42vh; height: 35vh;" class="img-thumbnail"> <br>
                                 <label><input type="checkbox" value="onion">Onion</label>
                             </div>
                             <div class="col-md">
-                                <img src="../delani-studio/assets/portfolio/work5.jpg" alt="work5 image" class="img-thumbnail"> <br>
+                                <img src="../delani-studio/assets/portfolio/work5.jpg" alt="work5 image" style="width: 42vh; height: 35vh;" class="img-thumbnail"> <br>
                                 <label><input type="checkbox" value="cheese">Extra Cheese</label>
                             </div>
                         </div>
@@ -90,13 +92,14 @@
                                     <label><input type="checkbox" value="onion">Onion</label>
                                 </div>
                                 <div class="col-md">
-                                    <img src="../delani-studio/assets/portfolio/work5.jpg" alt="work5 image" class="img-thumbnail"> <br>
+                                    <img src="https://theravenousprincess.files.wordpress.com/2013/01/ph-cheese-2.jpg" alt="extra cheese" class="img-thumbnail"> <br>
                                     <label><input type="checkbox" value="cheese">Extra Cheese</label>
                                 </div>
                             </div>
                     </div>
                 </div>
             </div>
+        </div>
             <h2>Select your desired crust</h2> <br>
             <div class="crustCost" id="crustCost">
                 <div class="radio">
@@ -117,15 +120,12 @@
             </div> <br>
     
     <div class="jhg">
-        <button type="submit" class="btn btn-success">Check Total Order!</button>
+        <button type="submit" class="btn btn-success">Check Total Order!</button> <br><br>
+        <button type="" >Total
+                Cost:<br> Ksh/ <span id="totalCostSpan"></span></p>
     </div>
  </form> <br> <br>
     <button type="dev" class="btn btn-danger but" style="margin-right: 180px; margin-top: -52px;">ORDER</button>
-    <div class="col-md-6">
-        <div id="result">
-            <p style="color:grey;font-size: 28px; margin-left: 200px; margin-top: 200px; position: fixed;"class="animated zoomInUp me">Total
-                Cost:Ksh/ <span id="totalCostSpan"></span></p>
-        </div>
     </div>
     </form>
 <form class="second">
