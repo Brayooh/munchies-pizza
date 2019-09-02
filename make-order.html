@@ -5,11 +5,12 @@
         <link rel="stylesheet" href="../pizza-hub/css/bootstrap.css">
         <link rel="stylesheet" href="../pizza-hub/js/bootstrap.js">
         <link rel="stylesheet" href="../pizza-hub/css/styles.css">
+        <link rel="stylesheet" href="../pizza-hub/js/scripts.js">
     </head>
     <body>
         <div class="topnav">
             <a href="../pizza-hub/index.html"><img src="http://www.munchiespizzahb.com/wp-content/uploads/2018/12/logo-1.png" alt="logo" style="height: 35px; width: 110px;"></a>
-            <a class="active" href="../pizza-hub/make-order.html">checkout orders</a>
+            <a class="active" href="../pizza-hub/make-order.html">make orders</a>
             <a href="#contact">Contact</a>
             <a href="#about">About</a>
         </div> <br>
@@ -34,27 +35,23 @@
                                                 <img src="https://c7.uihere.com/files/365/977/146/california-style-pizza-sicilian-pizza-fried-chicken-hamburger-pizza-thumb.jpg" alt="logo" style="height: 75%; width: 75%;">
                                             </div>
                                         </div> <br>
-                                        
+                                        <h2>Select your desired crust</h2> <br>                                    
                                         <div class="crustCost" id="crustCost">
-                                                <div class="radio">
-                                                    <label>
-                                                        <input type="radio" name="me" value="crispy">
-                                                        Crispy
-                                                    </label>
+                                            <div class="radio">
+                                            <div class="row">    
+                                                <div class="col-md">
+                                                    <label><input type="radio" name="me" value="crispy">Crispy</label>
                                                 </div>
-                                                <div class="radio">
-                                                    <label>
-                                                        <input type="radio" name="me" value="stuffed">
-                                                        Stuffed,
-                                                    </label>
+                                                <div class="col-md">
+                                                    <label><input type="radio" name="me" value="stuffed">Stuffed,</label>
                                                 </div>
-                                                <div class="radio">
-                                                    <label>
-                                                        <input type="radio" name="me" value="gluten">
-                                                        Gluten-free
-                                                    </label>
+                                                <div class="col-md">
+                                                    <label><input type="radio" name="me" value="gluten">Gluten-free</label>
                                                 </div>
-                                        </div>
+                                            </div>
+                                            </div>
+                                        </div> <br>
+
                                         <h2>Choose your desired topping(200/= for each topping selected)</h2> <br>
                                             <div class="toppingsCost" id="toppingsCost">
                                                 <div class="checkbox">
@@ -77,6 +74,18 @@
                                                 </div>
                                         </div>    
                                         </div>
+                                        <div class="jhg">
+                                                <button type="submit" class="btn btn-success">Check Total Order!</button> 
+                                            </div>
+                                            </form> <br> <br>
+                                              <button type="dev" class="btn btn-danger but"
+                                              style="margin-right: 180px; margin-top: -52px;">ORDER</button>
+                                            </div>
+                                            <div class="col-md-6">
+                                                    <div id="result">
+                                            <p style="color:grey;
+                                              font-size: 28px; margin-left: 200px; margin-top: 200px; position: fixed;" class="animated zoomInUp me">Total
+                                                            Cost:Ksh/ <span id="totalCostSpan"></span></p>
                                     </div>
                                 </div>
                             </div>
