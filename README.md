@@ -34,7 +34,6 @@ For clarifications and enquiries, email [brianndichu.bn@gmail.com]
      * +254701259902
 
 # Technologies Used
-
 * Html
 * CSS
 * BOOTSTRAP
