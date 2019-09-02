@@ -15,7 +15,13 @@
 #img3 {
   background-image: url("https://edge-restaurant.com/wp-content/uploads/2018/09/Preparing-Pizza-Dough-Recipe0.jpg");
   background-size: cover;
-  height: 80vh;
+  height: 110vh;
+  background-position: relative; 
+} 
+#img4 {
+  background-image: url("https://s2.best-wallpaper.net/wallpaper/2880x1800/1809/Pizza-pie-tomatoes-oil_2880x1800.jpg");
+  background-size: cover;
+  height: 70vh;
   background-position: relative; 
 } 
 .topnav {
@@ -43,10 +49,14 @@
 #h1{
     text-align: center;
     font-size: 54px;
-    color: rgb(253, 202, 34);
+    color: rgb(49, 34, 253);
 
 }
 
 .second{
   display: none;
+}
+.col-md{
+  text-align: center;
+  color: rgb(25, 103, 219)
 }
