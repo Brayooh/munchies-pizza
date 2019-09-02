@@ -9,7 +9,7 @@
 #img2 {
   background-image: url("https://hotpotdc.files.wordpress.com/2011/11/lomo-pzza-in-oven_edited-1.jpg");
   background-size: cover;
-  height: 120vh;
+  
   background-position: relative; 
 }
   
@@ -41,6 +41,7 @@
     color: rgb(253, 202, 34);
 
 }
-.logo{
-    margin-top: 60vh;            
+
+.second{
+  display: none;
 }
