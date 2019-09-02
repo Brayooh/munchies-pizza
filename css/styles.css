@@ -6,6 +6,12 @@
   height: 80vh;
   background-position: absolute; 
 }
+#img2 {
+  background-image: url("https://hotpotdc.files.wordpress.com/2011/11/lomo-pzza-in-oven_edited-1.jpg");
+  background-size: cover;
+  height: 110vh;
+  background-position: relative; 
+}
   
 .topnav {
     overflow: hidden;
