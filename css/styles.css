@@ -19,8 +19,9 @@
   background-position: relative; 
 } 
 #img4 {
-  background-image: url("http://eskipaper.com/images/pizza-wallpaper-9.jpg");
+  background-image: url("https://i0.nicepik.com/files/757/132/55/baked-blur-bread-cheese-thumb.jpg");
   background-size: cover;
+  backface-visibility: inherit;
   height: 50vh;
   background-position: relative; 
 } 
@@ -63,4 +64,33 @@
 .radio{
   font-size: 28px;
   margin-top: 8vh;
+}
+.second{
+  text-align: center;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.second {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.footer{
+  margin-left: 70vh;
+  width: 20%;
+}
+.submit{
+  text-align: center;
 }

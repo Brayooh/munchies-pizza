@@ -27,6 +27,10 @@ function Pizza(selectedSize,selectedToppings,selectedCrust) {
       bacon: 200,
       cheese: 200,
       onion: 200,
+      extraCheese: 200,
+      pineapple: 200,
+      mushroom: 200,
+
       
     };
   
